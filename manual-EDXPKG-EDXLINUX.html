@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual EDXPKG-EDXLINUX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5DEB3; /* Bege */
+            color: #006400; /* Verde Escuro */
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #004d00; /* Um tom um pouco mais escuro de verde para títulos */
+        }
+        pre {
+            background-color: #FFFACD; /* Amarelo claro para blocos de código */
+            color: #000000; /* Preto para o texto do código */
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        strong {
+            color: #004d00; /* Verde escuro para negrito */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Manual EDXPKG-EDXLINUX</h1>
+    <p>Este manual fornece instruções para instalar e configurar o Slim no ambiente EDXPKG-EDXLINUX.</p>
+
+    <hr>
+
+    <h2>1. Instalar o Slim</h2>
+    <p>O Slim é um gerenciador de display leve. Siga estes passos para instalá-lo:</p>
+    <ul>
+        <li>Abra seu terminal.</li>
+        <li>Instale o Slim usando o seguinte comando:</li>
+    </ul>
+    <pre><code>sudo apt install slim</code></pre>
+    <p>Se o Slim já estiver instalado, você não precisa reinstalá-lo.</p>
+
+    <hr>
+
+    <h2>2. Modificar a Configuração do Slim</h2>
+    <p>Para personalizar o Slim, siga estes passos:</p>
+    <ol>
+        <li><strong>Descompacte o arquivo do Slim:</strong>
+            <p>Assumindo que você tem um arquivo <code>slim.tar.gz</code>, descompacte-o usando o seguinte comando:</p>
+            <pre><code>sudo tar -xzf slim.tar.gz</code></pre>
+        </li>
+        <li><strong>Entre no diretório do Slim:</strong>
+            <pre><code>cd slim</code></pre>
+        </li>
+        <li><strong>Entre no diretório EDXPKG:</strong>
+            <pre><code>cd EDXPKG</code></pre>
+        </li>
+        <li><strong>Entre no diretório usr:</strong>
+            <pre><code>cd usr</code></pre>
+        </li>
+        <li><strong>Entre no diretório share:</strong>
+            <pre><code>cd share</code></pre>
+        </li>
+        <li><strong>Copie o arquivo <code>slim.tar.gz</code> para <code>/usr/share/</code>:</strong>
+            <pre><code>sudo cp -r slim.tar.gz /usr/share/</code></pre>
+        </li>
+        <li><strong>Descompacte o arquivo em <code>/usr/share/</code>:</strong>
+            <pre><code>cd /usr/share/</code></pre>
+            <pre><code>sudo tar -vzxf slim.tar.gz</code></pre>
+        </li>
+        <li><strong>Remova o arquivo <code>slim.tar.gz</code>:</strong>
+            <pre><code>sudo rm slim.tar.gz</code></pre>
+        </li>
+    </ol>
+
+    <p>Este manual deve ajudá-lo a começar com o Slim no EDXPKG-EDXLINUX. Se tiver mais alguma dúvida sobre a configuração do Slim, sinta-se à vontade para perguntar!</p>
+
+</body>
+</html>
