@@ -1,0 +1,18 @@
+ 1 sudo tar -vzxf icewm-edxpkg.tar.gz
+
+ 2 sudo apt install icewm
+ 
+ 3 cd icewm-edxpkg
+
+ 4 cd usr
+
+ 5 cd share
+
+
+ 6 cp -r /usr/share/
+
+
+ 7 tar -vzxf icewm
+
+
+ 8 rm icewm.tar.gz
