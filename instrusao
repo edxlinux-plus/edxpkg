@@ -1,0 +1,27 @@
+entrar
+cd usr
+
+
+entrar
+cd share
+
+
+entrar
+cd lxde
+
+
+entrar
+cd images
+
+ copiar para /usr/share/lxde/images
+cp -r  /usr/share/lxde/images
+
+
+
+descompactar
+tar -vzxf images.tar.gz
+
+
+
+remove arquivo images.tar.gz
+rm images.tar.gz
