@@ -1,0 +1,58 @@
+                                ubiquity-edxpkg
+
+baixe pelo github  ubiquity-edxpkg.tar.gz
+
+
+descompacte
+
+tar -vzxf ubiquity-edxpkg.tar.gz
+
+
+enter
+
+
+cd usr
+
+
+
+enter
+
+
+cd share
+
+
+copie pro sistema em /usr/share
+
+
+cp -r ubiquity-edxpkg.tar.gz  /usr/share
+
+
+va para o sistema em /usr/share
+
+
+descompacte ubiquity-edxpkg.tar.gz
+
+
+
+tar -vzxf ubiquity-edxpkg.tar.gz
+
+
+
+renova ubiquity-edxpkg.tar.gz
+
+
+
+
+rm ubiquity-edxpkg.tar.gz
+   
+
+
+
+
+
+
+
+
+
+
+  
