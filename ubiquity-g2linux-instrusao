@@ -1,0 +1,74 @@
+                                               ubiquity-g2linux
+                             dentro ubiquity.tar.gz   ubiquity-slideshow.tar.gz
+
+
+
+
+DESCOMPACTAR  ubiquity-g2linux.tar.gz
+
+
+tar -vzxf ubiquity-g2linux.tar.gz
+
+
+
+copiar para o sistema /usr/share
+
+cp -r ubiquity.tar.gz  /usr/share
+
+
+
+
+descompactar ubiquity.tar.gz
+
+
+
+
+tar -vzxf ubiquity.tar.gz
+
+
+
+
+remover ubiquity.tar.gz
+
+
+rm ubiquity.tar.gz  
+
+
+
+
+
+
+copiar para sistema /usr/share
+
+
+cp -r ubiquity-slideshow.tar.gz  /usr/share
+
+
+
+
+descompactar 
+
+
+
+
+
+
+tar -vzxf ubiquity-slideshow.tar.gz
+
+
+
+
+
+remover
+
+
+
+
+rm ubiquity-slideshow.tar.gz
+
+
+
+
+
+
+
